@@ -31,6 +31,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   // Each state's controller can be found in controllers.js
   $stateProvider
 
+    .state('tab.bmi', {
+      url: '/bmi',
+      views: {
+        'tab-bmi': {
+          templateUrl: 'templates/calculator/calculator.html',
+          controller: 'BmiController'
+        }
+      }
+    })
+
     .state('tab.about', {
       url: '/about',
       views: {
