@@ -1,3 +1,14 @@
+### BMI calculator
+
+Ionic app to calculate you BMI. You need Ionic viewer to use on mobile device.
+
+##### How to use:
+You enter your weight in kg and your height in cm.
+After pressing Calculate you will be able to see your BMI value and class.
+
+
+
+
 Ionic App Base
 =====================
 
@@ -13,7 +24,7 @@ For example, to start a new Ionic project with the default tabs interface, make 
 $ npm install -g ionic
 ```
 
-Then run: 
+Then run:
 
 ```bash
 $ ionic start myProject tabs
